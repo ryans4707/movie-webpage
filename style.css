@@ -1,10 +1,7 @@
-p {
+#wrapper {
     color:blue;
     text-align: center;
-     font-size:4em;
+     font-size:2em;
+     background-color: lightblue;
 }
 
-body {
- border: 2px solid red;
-    
-}

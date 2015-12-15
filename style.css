@@ -1,14 +1,19 @@
 #wrapper {
     color:blue;
     text-align: center;
-
-     font-size:2em;
-     background-color: lightblue;
+font-size:2em;
+    
 }
 p {
     color:white;
     text-align:center;
     font-size:150;
 
+}
+
+
+body {
+ border: 2px solid red;
+    background-image: url('dream.jpg');
 }
 

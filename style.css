@@ -4,16 +4,15 @@
     font-size: 2em;
 }
  p {
-    color: white;
+    color: RED;
     text-align: center;
     font-size:200;
-    font-family: 'Open Sans', sans-serif;
-   
+   font-family: 'Lato', sans-serif;   
      
 }
 
 
-h2, h {
+h2, h3 {
     color: orange;
     text-align: center;
     font-size: 2em;
@@ -33,5 +32,10 @@ body {
      text-align: center;
  }
 
+form {
+    color: yellow;
+    text-align:center;
+    font-size: 1em;
+}
 
 

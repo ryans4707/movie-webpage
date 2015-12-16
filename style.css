@@ -1,23 +1,24 @@
 #wrapper {
-    color:blue;
+    color: blue;
     text-align: center;
-font-size:2em;
-    
+    font-size: 2em;
 }
-h2{
-    color:orange;
+
+h2 {
+    color: orange;
 }
+
 p {
-    color:white;
-    text-align:center;
-    font-size:150;
+    color: white;
+    text-align: center;
+    font-size: 150;
     font-family: 'Open Sans', sans-serif;
-
 }
-
 
 body {
- 
     background-image: url('dream.jpg');
 }
 
+container {
+    position: absolute ;
+}

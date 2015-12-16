@@ -4,16 +4,20 @@
 font-size:2em;
     
 }
+h2{
+    color:orange;
+}
 p {
     color:white;
     text-align:center;
     font-size:150;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
 
 body {
- border: 2px solid red;
+ 
     background-image: url('dream.jpg');
 }
 

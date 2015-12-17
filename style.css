@@ -1,28 +1,20 @@
-#wrapper {
-    color: blue;
-    text-align: center;
-    font-size: 2em;
-}
-
-h2 {
-    color: orange;
-}
-
 p {
-    color: white;
-    text-align: center;
-    font-size: 200;
-    font-family: 'Open Sans', sans-serif;
-    display:inline-block;
+     color: white;
+     text-align: center;
+   font-size: 50;
+    font-size: 25;
+     font-family: 'Open Sans', sans-serif;
+   display:inline-block;
      
-}
-
-body {
-    background-image: url('dream.jpg');
-  
+ }
+ 
+ body {
+     background-image: url('dream.jpg');
    
-}
-
+ }
+ 
+container {
+    position: absolute ;
 #trapped {
    padding: 55.5px 32.5px 55.5px 32.5px;
-}
+ }

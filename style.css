@@ -15,6 +15,11 @@ p {
  
 container {
     position: absolute ;
+}
 #trapped {
    padding: 55.5px 32.5px 55.5px 32.5px;
  }
+  h3{
+      font-size:30;
+      color:white;
+  }

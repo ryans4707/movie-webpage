@@ -15,7 +15,9 @@
 h2, h3 {
     color: orange;
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
+    text-shadow:3px 3px red;
+ 
 }
 
 
@@ -30,13 +32,17 @@ body {
  }
  decription {
      display:relative ;
-     text-align: center;
+     text-align:2px  center;
+     font-size:3em;
+    box-shadow:2px 2px green;
  }
+ 
 
 form {
     color: yellow;
     text-align:center;
-    font-size: 1em;
+    font-size: 2em;
+    text-shadow:2px 2px red;
 }
 
 

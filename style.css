@@ -5,10 +5,11 @@
   border-top: 60px solid blue;
   border-left: 60px solid yellow;
   border-bottom: 60px solid blue;
-  border-top-left-radius: 60px;
-  border-top-right-radius: 60px;
-  border-bottom-left-radius: 60px;
-  border-bottom-right-radius: 60px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  position: absolute;
   
 }
 

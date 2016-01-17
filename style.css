@@ -9,21 +9,31 @@
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
-  position: absolute;
-  
+   position: relative;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */ 
+    animation: mymove 5s infinite;
 }
 
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes mymove {
+    0%   {right: 0px;}
+    25%  {left: 5px;}
+    50%  {right: 5px;}
+    75%  {right: 5px;}
+    100% {left: 995px;}
+}
 #wrapper {
     color: blue;
     text-align: center;
-    font-size: 2em;
-   
+    font-size: 3em;
+    text-shadow:4px 4px red;
+    
      
 }
  p {
     color: RED;
     text-align: center;
-    font-size:20;
+    font-size:60;
    font-family: 'Lato', sans-serif;   
      
 }
@@ -39,13 +49,16 @@ h2, h3 {
 
 
 body {
-    background-image: url('dream.jpg');
-   
+
+  background: url('dream.jpg') no-repeat center fixed; 
+  background-size: cover;
 }
+
  #trapped{
-     margin-left:350px;
-      padding: 50px;
+     margin-left:50px;
+      
       display: float;
+     box-shadow: 20px 20px white;
  }
  decription {
      display:relative ;

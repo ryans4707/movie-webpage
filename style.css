@@ -10,16 +10,16 @@
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
    position: relative;
-    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */ 
-    animation: mymove 5s infinite;
+    -webkit-animation: move 5s infinite; /* Chrome, Safari, Opera */ 
+    animation: move 5s infinite;
 }
 
 /* Chrome, Safari, Opera */ 
-@-webkit-keyframes mymove {
+@-webkit-keyframes move {
     0%   {right: 0px;}
-    25%  {left: 5px;}
-    50%  {right: 5px;}
-    75%  {right: 5px;}
+    25%  {left: 1px;}
+    50%  {right: 1px;}
+    75%  {right: 1px;}
     100% {left: 995px;}
 }
 #wrapper {
@@ -33,7 +33,7 @@
  p {
     color: RED;
     text-align: center;
-    font-size:60;
+    font-size:70;
    font-family: 'Lato', sans-serif;   
      
 }

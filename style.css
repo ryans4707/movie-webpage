@@ -2,31 +2,36 @@
   width: 0px;
   height: 0px;
   border-right: 60px solid transparent;
-  border-top: 60px solid blue;
-  border-left: 60px solid yellow;
-  border-bottom: 60px solid blue;
+  border-top: 50px solid blue;
+  border-left: 50px solid yellow;
+  border-bottom: 50px solid blue;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
-   position: relative;
-    -webkit-animation: move 5s infinite; /* Chrome, Safari, Opera */ 
+   position: absolute;
+   animation: move 5s infinite; /* Chrome, Safari, Opera */ 
     animation: move 5s infinite;
 }
+#cover{
+    width:100px;
+    height:110px;
+    background-color:;
+    position: absolute;
+}
+
 
 /* Chrome, Safari, Opera */ 
-@-webkit-keyframes move {
-    0%   {right: 0px;}
-    25%  {left: 1px;}
-    50%  {right: 1px;}
-    75%  {right: 1px;}
-    100% {left: 995px;}
+@keyframes move {
+    0%   {left: 0;}
+    100% {left: 100%;}
 }
 #wrapper {
     color: blue;
     text-align: center;
     font-size: 3em;
     text-shadow:4px 4px red;
+    background: lightblue;
     
      
 }

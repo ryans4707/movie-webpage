@@ -58,13 +58,12 @@ body {
      margin-left:50px;
       
       display: float;
-     box-shadow: 20px 20px white;
+    transform: rotate(4deg);
  }
  decription {
      display:relative ;
      text-align:2px  center;
      font-size:3em;
-    box-shadow:2px 2px green;
  }
  
 

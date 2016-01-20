@@ -14,11 +14,20 @@
     animation: move 5s infinite;
 }
 
+
 #cover{
-    width:100px;
-    height:110px;
-   background-color:yellow;
+    width: 100px;
+    height: 110px;
     position: absolute;
+    background-color: red;
+    animation-direction: width;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+}
+
+#cover:animation {
+    width: 100%;
 }
 
 
@@ -36,10 +45,10 @@
     font-size: 3em;
     text-shadow:4px 4px red;
     background: red; /* For browsers that do not support gradients */    
-    background: -webkit-linear-gradient(left top, red, yellow); 
-    background: -o-linear-gradient(bottom right, red, yellow); 
-    background: -moz-linear-gradient(bottom right, red, yellow); 
-    background: linear-gradient(to bottom right, red, yellow); 
+    background: -webkit-linear-gradient(left top, red, blue); 
+    background: -o-linear-gradient(bottom right, red, blue); 
+    background: -moz-linear-gradient(bottom right, red, blue); 
+    background: linear-gradient(to bottom right, red, blue); 
     
      
 }

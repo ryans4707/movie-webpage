@@ -13,25 +13,33 @@
    animation: move 5s infinite; /* Chrome, Safari, Opera */ 
     animation: move 5s infinite;
 }
+
 #cover{
     width:100px;
     height:110px;
-    background-color:;
+   background-color:yellow;
     position: absolute;
 }
 
 
-/* Chrome, Safari, Opera */ 
+
 @keyframes move {
     0%   {left: 0;}
     100% {left: 100%;}
 }
+
+    
+
 #wrapper {
     color: blue;
     text-align: center;
     font-size: 3em;
     text-shadow:4px 4px red;
-    background: lightblue;
+    background: red; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, red, yellow); 
+    background: -o-linear-gradient(bottom right, red, yellow); 
+    background: -moz-linear-gradient(bottom right, red, yellow); 
+    background: linear-gradient(to bottom right, red, yellow); 
     
      
 }

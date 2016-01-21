@@ -12,6 +12,7 @@
    position: absolute;
    animation: move 5s infinite;  
     animation: move 5s infinite;
+    animation-delay:2s;
      animation-direction: alternate;
 }
 
@@ -23,6 +24,7 @@
     background-color: lightblue;
     animation-name: example;
     animation-duration: 5.5s;
+    animation-delay:2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -95,5 +97,16 @@ form {
     font-size: 2em;
     text-shadow:2px 2px red;
 }
+.blue-button{
+    background-color:lightblue;
+    transition: width 2s, height 2s, transform 2s;
+    
+}
+
+.blue-button:hover{
+transform: rotate(360deg)
+
+}
+
 
 

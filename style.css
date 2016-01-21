@@ -10,8 +10,9 @@
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
    position: absolute;
-   animation: move 5s infinite; /* Chrome, Safari, Opera */ 
+   animation: move 5s infinite;  
     animation: move 5s infinite;
+     animation-direction: alternate;
 }
 
 
@@ -19,22 +20,24 @@
     width: 100px;
     height: 110px;
     position: absolute;
-    background-color: red;
-    animation-direction: width;
-    animation-duration: 2s;
+    background-color: lightblue;
+    animation-name: example;
+    animation-duration: 5.5s;
     animation-timing-function: linear;
-    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
 }
-
-#cover:animation {
-    width: 100%;
-}
-
 
 
 @keyframes move {
     0%   {left: 0;}
     100% {left: 100%;}
+}
+@keyframes example {
+   0% {width: 100px;}
+   
+    100% {width: 1500px;}
 }
 
     
@@ -44,11 +47,8 @@
     text-align: center;
     font-size: 3em;
     text-shadow:4px 4px red;
-    background: red; /* For browsers that do not support gradients */    
-    background: -webkit-linear-gradient(left top, red, blue); 
-    background: -o-linear-gradient(bottom right, red, blue); 
-    background: -moz-linear-gradient(bottom right, red, blue); 
-    background: linear-gradient(to bottom right, red, blue); 
+    background: lightblue; /* For browsers that do not support gradients */    
+ 
     
      
 }

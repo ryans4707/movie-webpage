@@ -10,8 +10,8 @@
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
    position: absolute;
-   animation: pacman-move 5s infinite;  
-    animation-delay:2s;
+   animation: pacman-move 5s infinite;
+    animation-delay:4s;
      animation-direction: alternate;
          animation-timing-function: linear;
 
@@ -27,7 +27,7 @@
     background-color: lightblue;
     animation-name: cover-move;
     animation-duration: 5s;
-    animation-delay:2s;
+    animation-delay:4s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -43,8 +43,7 @@
    100% {width: 100%;}
 }
 
-
-    
+   
 
 #wrapper {
     color: blue;
